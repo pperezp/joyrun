@@ -1,4 +1,4 @@
-package org.example;
+package cl.prezdev.joyrun;
 
 import javax.swing.*;
 

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.example.GuiApp">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="cl.prezdev.joyrun.GuiApp">
   <grid id="27dc6" binding="mainPanel" default-binding="true" layout-manager="FormLayout">
     <rowspec value="center:d:noGrow"/>
+    <rowspec value="top:4dlu:noGrow"/>
+    <rowspec value="center:max(d;4px):noGrow"/>
     <rowspec value="top:4dlu:noGrow"/>
     <rowspec value="center:max(d;4px):noGrow"/>
     <rowspec value="top:4dlu:noGrow"/>
@@ -24,7 +26,7 @@
         </constraints>
         <properties>
           <font style="1"/>
-          <text value="Controlador:"/>
+          <text value="Controller:"/>
         </properties>
       </component>
       <component id="bd9d7" class="javax.swing.JLabel">
@@ -34,7 +36,7 @@
         </constraints>
         <properties>
           <font style="1"/>
-          <text value="Botón:"/>
+          <text value="Button:"/>
         </properties>
       </component>
       <component id="a3c80" class="javax.swing.JLabel" binding="controllerLabel">
@@ -62,7 +64,7 @@
         </constraints>
         <properties>
           <font style="1"/>
-          <text value="Mensaje:"/>
+          <text value="Message:"/>
         </properties>
       </component>
       <component id="49877" class="javax.swing.JTextField" binding="messageField">
@@ -82,6 +84,15 @@
         <properties>
           <label value="Save"/>
           <text value="Save"/>
+        </properties>
+      </component>
+      <component id="5eccc" class="javax.swing.JButton" binding="startButton">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <forms/>
+        </constraints>
+        <properties>
+          <text value="Start"/>
         </properties>
       </component>
     </children>
