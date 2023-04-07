@@ -4,7 +4,7 @@ import cl.prezdev.joyrun.listeners.joystick.impl.PrintInfoInLabelsListener;
 import cl.prezdev.joyrun.listeners.SaveButtonActionListener;
 import cl.prezdev.joyrun.listeners.joystick.impl.SetCurrentButtonListener;
 import cl.prezdev.joyrun.listeners.StartButtonActionListener;
-import cl.prezdev.joyrun.service.impl.JoystickListenerImpl;
+import cl.prezdev.joyrun.listeners.joystick.impl.JoystickListenerImpl;
 import lombok.Getter;
 
 import javax.swing.*;

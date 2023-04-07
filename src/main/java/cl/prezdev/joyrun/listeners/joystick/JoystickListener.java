@@ -1,4 +1,4 @@
-package cl.prezdev.joyrun.service;
+package cl.prezdev.joyrun.listeners.joystick;
 
 import cl.prezdev.joyrun.listeners.joystick.JoystickPressButtonListener;
 

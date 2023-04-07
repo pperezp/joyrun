@@ -1,7 +1,7 @@
 package cl.prezdev.joyrun.listeners;
 
 import cl.prezdev.joyrun.listeners.joystick.impl.ExecuteCommandsJoystickListenerPress;
-import cl.prezdev.joyrun.service.impl.JoystickListenerImpl;
+import cl.prezdev.joyrun.listeners.joystick.impl.JoystickListenerImpl;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

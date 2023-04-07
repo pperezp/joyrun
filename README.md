@@ -1,1 +1,1 @@
-sudo cp libjinput-linux64.so /usr/lib64/
+sudo cp src/main/resources/libjinput-linux64.so /usr/lib64/

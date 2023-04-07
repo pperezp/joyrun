@@ -1,8 +1,8 @@
-package cl.prezdev.joyrun.service.impl;
+package cl.prezdev.joyrun.listeners.joystick.impl;
 
 import cl.prezdev.joyrun.model.Button;
 import cl.prezdev.joyrun.listeners.joystick.JoystickPressButtonListener;
-import cl.prezdev.joyrun.service.JoystickListener;
+import cl.prezdev.joyrun.listeners.joystick.JoystickListener;
 import lombok.SneakyThrows;
 import net.java.games.input.*;
 
